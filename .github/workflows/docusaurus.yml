@@ -17,5 +17,5 @@ jobs:
         run: npm install
         
       - name: Run docusaurus
-        run : npx my-website/docusaurus start
+        run : npm run build
         
