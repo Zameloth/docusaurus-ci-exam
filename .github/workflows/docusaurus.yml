@@ -11,8 +11,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
-      - name : change folder
-        run: cd my-website
+          node-version: '22.x'
+      - name : install npm
+        run: npm install
       - name : launch docusaurus
         run: npx docusaurus start
