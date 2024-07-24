@@ -15,7 +15,7 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: npm install
-        
+      - name: e
+        run: cd my-website
       - name: Run docusaurus
-        run : npm run build
-        
+        run : npm run
