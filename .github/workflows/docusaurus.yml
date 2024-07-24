@@ -18,5 +18,4 @@ jobs:
       - name: e
         run: cd my-website
       - name: Run docusaurus
-        run : npm run
-        
+        run : npm run build
